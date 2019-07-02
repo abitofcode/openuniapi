@@ -1,0 +1,205 @@
+{
+	"info": {
+		"_postman_id": "b8836f01-11a6-44cd-8e2d-a39ec7a765a5",
+		"name": "OPENUNIAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "lookup",
+			"item": [
+				{
+					"name": "Lookup random",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/lookup/random/thing",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"lookup",
+								"random",
+								"thing"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lookup gender",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/lookup/gender",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"lookup",
+								"gender"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lookup country",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/lookup/country",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"lookup",
+								"country"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lookup enrolment_status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/lookup/enrolment_status",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"lookup",
+								"enrolment_status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lookup enrolment_type",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/lookup/enrolment_type",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"lookup",
+								"enrolment_type"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lookup attendance_type",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/lookup/attendance_type",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"lookup",
+								"attendance_type"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lookup attendance_reason",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/lookup/attendance_reason",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"lookup",
+								"attendance_reason"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lookup ethnic_origin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/lookup/ethnic_origin",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"lookup",
+								"ethnic_origin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lookup employment_status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/lookup/employment_status",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"lookup",
+								"employment_status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lookup occupation",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/lookup/occupation",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"lookup",
+								"occupation"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
